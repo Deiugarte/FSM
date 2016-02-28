@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="/media/Data/Programming/HDL/2016/FullAdder/fullAdder_4b_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="fullAdder_4b_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="30" />
+   <wave_markers>
+      <marker time="400000000" label="" />
+      <marker time="350000000" label="" />
+      <marker time="200000000" label="" />
+   </wave_markers>
+   <wvobject fp_name="/fullAdder_4b_test/a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">a[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/db_a" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">db_a[3:0]</obj_property>
+      <obj_property name="ObjectShortName">db_a[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#00ffff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">b[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/db_b" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">db_b[3:0]</obj_property>
+      <obj_property name="ObjectShortName">db_b[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ff00ff</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/sum" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sum[3:0]</obj_property>
+      <obj_property name="ObjectShortName">sum[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/state" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">state[2:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/sseg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sseg[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sseg[7:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/AN" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">AN[3:0]</obj_property>
+      <obj_property name="ObjectShortName">AN[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/cin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cin</obj_property>
+      <obj_property name="ObjectShortName">cin</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_0/a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_0/b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_0/cin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cin</obj_property>
+      <obj_property name="ObjectShortName">cin</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_0/sum" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sum</obj_property>
+      <obj_property name="ObjectShortName">sum</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_0/cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#800080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_1/a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_1/b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_1/cin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cin</obj_property>
+      <obj_property name="ObjectShortName">cin</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_1/sum" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sum</obj_property>
+      <obj_property name="ObjectShortName">sum</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_1/cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_2/a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#a0a0a4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_2/b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#a0a0a4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_2/cin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cin</obj_property>
+      <obj_property name="ObjectShortName">cin</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#a0a0a4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_2/sum" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sum</obj_property>
+      <obj_property name="ObjectShortName">sum</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#a0a0a4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_2/cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#a0a0a4</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_3/a" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">a</obj_property>
+      <obj_property name="ObjectShortName">a</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_3/b" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">b</obj_property>
+      <obj_property name="ObjectShortName">b</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_3/cin" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cin</obj_property>
+      <obj_property name="ObjectShortName">cin</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_3/sum" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sum</obj_property>
+      <obj_property name="ObjectShortName">sum</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+   <wvobject fp_name="/fullAdder_4b_test/uut/fA_3/cout" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">cout</obj_property>
+      <obj_property name="ObjectShortName">cout</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="CustomSignalColor">#ffa500</obj_property>
+   </wvobject>
+</wave_config>
