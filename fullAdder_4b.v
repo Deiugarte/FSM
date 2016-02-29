@@ -92,7 +92,7 @@ initial begin
 	state = 0;
 end
 
-always @ ( posedge clk ) begin
+always @ ( posedge clk_out ) begin
 	if (reset)
 		state <= STATE_0;
 	else begin
@@ -228,5 +228,12 @@ fullAdder_1b fA_3 (
     .sum(sum[3]),
     .cout(cout3)
     );
+
+// Instantiate the module
+div_frec instance_name (
+    .clk_in(clk),
+    .clk_out(clk_out)
+    );
+
 
 endmodule
