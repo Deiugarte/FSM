@@ -33,7 +33,7 @@ module debounce (
 // symbolic state declaration
 localparam [1:0]
                  zero			= 2'b00,
-								 wait0		= 2'b01,
+					  wait0			= 2'b01,
                  one			= 2'b10,
                  wait1  	= 2'b11;
 

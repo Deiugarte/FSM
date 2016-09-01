@@ -26,7 +26,7 @@ module div_frec(
 	// Valor por defecto del divisor
 	parameter M = 100_000_000;
 	// log2(M)
-	localparam N = 27;
+	localparam N = 15;
 
 	// Registro para implementar el contador modulo M
 	reg [N-1:0] divcounter = 0;

@@ -1,15 +1,14 @@
+
+NET "cin"			LOC = A8;
+NET "progre"		LOC = D9;
+NET "regre"			LOC = C4;
+NET "reset" 		LOC = C9;
+
 NET "a[0]"	LOC = T10;
 NET "a[1]"	LOC = T9;
 NET "a[2]"	LOC = V9;
 NET "a[3]"	LOC = M8;
 
-NET "b[0]"	LOC = N8;
-NET "b[1]"	LOC = U8;
-NET "b[2]"	LOC = V8;
-NET "b[3]"	LOC = T5;
-
-NET "cin"	LOC = A8;
-NET "reset" LOC = C9;
 
 NET "sseg[0]"		LOC = M13;	// segmento CDP
 NET "sseg[1]"		LOC = T17;	// segmento CA
@@ -20,10 +19,7 @@ NET "sseg[5]"		LOC = M14;	// segmento CE
 NET "sseg[6]"		LOC = N14;	// segmento CF
 NET "sseg[7]"		LOC = L14;	// segmento CG
 
-NET "AN[0]"	LOC = N16;
-NET "AN[1]"	LOC = N15;
-NET "AN[2]"	LOC = P18;
-NET "AN[3]"	LOC = P17;
+
 
 
 NET "clk" LOC = "V10" | IOSTANDARD = "LVCMOS33";	// referencia del reloj
